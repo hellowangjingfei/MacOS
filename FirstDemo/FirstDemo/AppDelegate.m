@@ -94,6 +94,8 @@
      NSWindowFullScreenButton NS_ENUM_DEPRECATED_MAC(10_7, 10_12, "The standard window button for NSWindowFullScreenButton is always nil; use NSWindowZoomButton instead"),
      */
     [[self.window standardWindowButton:NSWindowDocumentIconButton] setImage:img];
+    
+    NSLog(@"test ------------------ ");
 }
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
