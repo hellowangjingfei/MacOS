@@ -1,0 +1,23 @@
+//
+//  FirstDemo.pch
+//  FirstDemo
+//
+//  Created by it-0003005 on 2019/5/8.
+//  Copyright © 2019年 it-0003005. All rights reserved.
+//
+
+#ifndef FirstDemo_pch
+#define FirstDemo_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kScreenWidth [NSScreen mainScreen].visibleFrame.size.width
+
+#define kScreenHeight [NSScreen mainScreen].visibleFrame.size.height
+
+#define kSelectedFilePath @"Select_File_Path"
+
+#import "Masonry.h"
+
+#endif /* FirstDemo_pch */

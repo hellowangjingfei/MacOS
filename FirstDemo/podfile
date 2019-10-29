@@ -1,0 +1,4 @@
+platform :osx,'10.0'
+target 'FirstDemo' do
+pod 'MJExtension'
+end
