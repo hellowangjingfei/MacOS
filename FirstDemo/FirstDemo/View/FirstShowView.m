@@ -12,6 +12,8 @@
 
 @interface FirstShowView ()
 
+@property (nonatomic,copy) NSString  *name;
+
 //第一个标题
 @property (nonatomic,strong) NSTextField  *titleFirstLabel;
 //内容
