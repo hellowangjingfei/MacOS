@@ -21,18 +21,9 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
     [self obtainWeekCount];
-    
-    
-    
-    
-    
-    
+
     NSLog(@"test code");
-    
-    
-    
-    
-    
+
     NSUInteger style = NSWindowStyleMaskTitled | NSWindowStyleMaskClosable | NSWindowStyleMaskMiniaturizable | NSWindowStyleMaskResizable;
     self.window = [[NSWindow alloc] initWithContentRect:NSMakeRect(0, 0, kScreenWidth / 2.0, kScreenHeight / 2.0) styleMask:style backing:NSBackingStoreBuffered defer:YES];
     
